@@ -2,16 +2,16 @@
 <html>
 <head>
 
-<link rel="stylesheet" href="./css/dropbtn.css">
-<link rel="stylesheet" href="./css/textbox.css">
-<link rel="stylesheet" href="./css/font.css">
-<link rel="stylesheet" href="./css/button.css">
+<link rel="stylesheet" href="./dropbtn.css">
+<link rel="stylesheet" href="./textbox.css">
+<link rel="stylesheet" href="./font.css">
+<link rel="stylesheet" href="./button.css">
 
 
 
 <!-- leftsidenav -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="./css/leftsidenav.css">
+<link rel="stylesheet" href="./leftsidenav.css">
 
 <!-- uppersidenav -->
 
