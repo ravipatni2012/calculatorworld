@@ -1,0 +1,160 @@
+
+<html>
+<head>
+
+<link rel="stylesheet"  href="./css/share.css">
+
+<link  rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+
+<!-- leftsidenav -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="./css/leftsidenav.css">
+
+<!-- uppersidenav -->
+
+<link rel="stylesheet" href="./css/uppersidenav.css">
+
+</head>
+
+
+<body bgcolor="skyblue">
+
+<!-- leftsidenav_Started-->
+
+<div id="side" class="sidenav">
+  <a href="./index.html">About</a>
+
+
+  <button class="dropdown-btn">Converter 
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="./unit.php">Memory Unit </a>
+  </div>
+  
+  <button class="dropdown-btn">Calculators 
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="./age.php">Age Calculator</a>
+    <a href="./bmi.php">BMI Calculator</a>
+    <a href="./emi.php">EMI Calculator</a>
+	<a href="./fd.php">FD Calculator</a>
+  </div>
+  <a href="./share.html">Contact</a>
+</div>
+
+
+<script>
+/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+  this.classList.toggle("active");
+  var dropdownContent = this.nextElementSibling;
+  if (dropdownContent.style.display === "block") {
+  dropdownContent.style.display = "none";
+  } else {
+  dropdownContent.style.display = "block";
+  }
+  });
+}
+</script>
+
+
+<!-- uppersidenav_Started-->
+
+<div class="container">
+  
+  <div class="text-block">
+    
+	
+
+
+
+<p>
+
+<!-- datetime-->
+
+	<div align="right"  style="color:white"><font size="3">
+		<script type="text/javascript" src="./js/date_time.js"></script>
+
+		<span id="date_time"></span>
+		 <script type="text/javascript">window.onload = date_time('date_time');</script> </b><br>
+		</font>
+
+	</div >
+	
+<br>
+	
+<!-- goodmoring message-->
+	
+	<script type="text/javascript">
+        document.write("<center><font size=4 style='color: white;'>");
+        var day = new Date();
+        var hr = day.getHours();
+        if (hr >= 0 && hr < 12) {
+            document.write("Good Morning!");
+        } else if (hr == 12) {
+            document.write("Good Noon!");
+        } else if (hr >= 12 && hr <= 17) {
+            document.write("Good Afternoon!");
+        } else {
+            document.write("Good Evening!");
+        }
+        document.write("</font></center>");
+    </script>
+
+
+</p>
+
+
+
+
+  </div>
+</div>
+
+<br><br><br><br><br><br>
+
+
+<div class="container"> <br>
+  
+  <div class="panel panel-default">
+    <div class="panel-heading"><b> <i> Contact  </i></b> </div>
+    <div class="panel-body"><font color="black"> <p align="justify" >  <b>Present Address</b><br>
+
+Ravi Jain <br>
+Kishangarh <br>
+Dist-Ajmer-305801, Rajasthan [INDIA] <br>
+
+
+
+</p> 
+
+</div>
+  </div>
+</div>
+
+
+<ul>
+
+
+  <li>
+  
+ <font color="red"><b> Share your comments  </b></font>
+ <br> <br>
+    <a  href="https://www.facebook.com/monu.patni.9" title="Facebook share" target="_blank"><img src="./image/facebook.png" height="40"></a>
+ 
+    <a  href="https://twitter.com/share?url=https://codepen.io/patrickkahl&amp;text=Share popup on &amp;hashtags=codepen" title="Twitter share" target="_blank"><img src="./image/twitt.png" height="40"></a>
+  </li>
+  
+</ul>
+
+
+
+
+</body>
+
+</html>
